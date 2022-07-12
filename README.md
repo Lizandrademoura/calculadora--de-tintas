@@ -1,7 +1,9 @@
+![tintinhas_2](https://user-images.githubusercontent.com/107069944/178563945-644132e0-752c-4f34-b042-1467f3b0d9fd.PNG)
+
 # Desafio estágio Compass UOL
 
 ### Desafio proposto pela empresa para a criação de uma calculadora de tintas de acordo com as medidas da parede.
-Uma aplicação web/mobile que ajude o usuário a calcular a quantidade de tinta
+Uma aplicação web que ajude o usuário a calcular a quantidade de tinta
 necessária para pintar uma sala. Essa aplicação deve considerar que a sala é
 composta de 4 paredes e deve permitir que o usuário escolha qual a medida de cada
 parede e quantas janelas e portas possuem cada parede. Com base na quantidade
