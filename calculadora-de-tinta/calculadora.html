@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600&family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="./assets/css/header.css">
+    <link rel="stylesheet" href="./assets/css/calcula-tinta.css">
+    <link rel="stylesheet" href="./assets/css/footer.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <title>Calculadora de tintas</title>
+</head>
+<body>
+    <header class="main-header">
+        <h1 class="main-header__title">
+            <span class="main-header__title--blue">Color</span><span class="main-header__title--orange">Life</span>
+        </h1>
+        <div class="container">
+            <nav class="main-header__menu">
+                <ul>
+                    <li>
+                        <a href="">Entre <img src="./assets/image/icons8-usuário-20.png" alt="">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="">Meu Carrinho <img src="./assets/image/icons8-carrinho-de-compras-carregado-20.png" alt="">
+                        </a>
+                    </li>
+                    <li><a href="contato.html">Contato</a></li>
+                </ul>
+            </nav>
+            <form class="search-form">
+                <input type="text" placeholder="Buscar um item...">
+                <button>Buscar</i></button>
+            </form>
+        </div>
+    </header>
+
+    <section class="calculadora-tinta">
+        <h2 class="calculadora-tinta__title">Vamos calcular?</h2>
+        <div class="container">
+            <div class="contato-form">
+                <p>Calcule por M²</p>
+                <form name="imcForm" id="imcForm" class="form">
+                    <div class="form-control">
+                        <label>Altura da parede</label>
+                        <input type="text" id="altura da parede" name="altura" min="1" max="15" placeholder="Digite a altura" />
+                        <span>Informe a altura em metros</span>
+                    </div>
+        
+                    <div class="form-control">
+                        <label>Largura da parede</label>
+                        <input type="text" id="largura da parede" name="largura" min="1" placeholder="Digite a largura" />
+                        <span>Informe a largura em metros</span>
+                    </div>
+                    <div class="form-control">
+                        <label>Área sem pintura</label>
+                        <input type="number" id="portas" name="portas" min="0" placeholder="Digite a quantidade de portas" />
+                        <span>Se não houver digite 0.</span>
+                    </div>
+                    <div class="form-control">
+                        <label>Área sem pintura</label>
+                        <input type="number" id="janelas" name="janelas" min="0" placeholder="Digite a quantidade de janelas." />
+                        <span>Se não houver digite 0</span>
+                    </div>
+                    
+                    <button onclick="calcula_tinta()" value="Calcular" type="submit">CALCULAR</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <div class="footer-social">
+            <p>Todos os direitos reservados&copy; 2022</p>
+            </div>
+
+            <div class="footer-social__nav">
+                <nav>
+                    <span>Acompanhe nas redes sociais</span>
+                    <ul>
+                        <li><a href=""><img src="./assets/image/icons8-facebook-novo-30.png" alt=""></a></li>
+                        <li><a href=""><img src="./assets/image/icons8-instagram-30.png" alt=""></a></li>
+                        <li><a href=""><img src="./assets/image/icons8-twitter-30.png" alt=""></a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </footer>
+
+
+    <script src="./scripts/calculadora.js"></script>
+</body>
+</html>
